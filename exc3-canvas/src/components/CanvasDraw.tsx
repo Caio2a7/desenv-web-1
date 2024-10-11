@@ -31,7 +31,7 @@ const CanvasDraw = () => {
             const currentX = event.offsetX;
             const currentY = event.offsetY;
             ctx.strokeStyle = 'white';
-            ctx.lineWidth = 3;
+            ctx.lineWidth = 2;
 
             ctx.beginPath();
             ctx.moveTo(lastPosition.x, lastPosition.y);
